@@ -480,12 +480,12 @@ html {
   background-position: center;
 }
 .checkbox-emergencia:checked{
-  background-color: greenyellow;
+  background-color: #06a8e8;
   appearance: none;
   background-blend-mode: multiply;
   -webkit-appearance: none;
   -moz-appearance: none;
-  border: 2px solid green;
+  border: 2px solid #0667E8;
   outline: none;
   cursor: pointer;
   width: 120px; 

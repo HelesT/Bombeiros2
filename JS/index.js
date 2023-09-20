@@ -202,3 +202,9 @@ function Sentada() {/*Input type radio*/
     var semi_deitada_conducao = document.getElementById("semi_deitada_conducao"); 
     semi_deitada_conducao.checked = false;
 }
+function AvaliacaoPaciente(){
+
+}
+function Espontanea() {/*Input type radio*/
+    var EspontaneaPaciente = document.getElementById("sexo_paciente_f"); 
+    EspontaneaPaciente.checked = false;}
