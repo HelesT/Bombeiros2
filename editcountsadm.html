@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Contas</title>
+    <style>
+        body
+        {
+            margin: 0%;
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(45deg,rgb(22, 255, 224), rgb(3, 91, 255));
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            flex-direction: column;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            justify-items: center;
+            color: red;
+        }
+        .cabecalho
+        {
+            width: 100%;
+            height: 10vh;
+            background-color: red;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            align-content: center;
+            justify-items: center;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 45px;
+            color: white;
+        }
+        .principal
+        {
+            width: 100%;
+            height: 90vh;
+            background-color: rgba(91, 175, 175, 0.507);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            justify-items: center;
+            flex-direction: column;
+        }
+        .primeira
+        {
+            width: 99%;
+            height: 15vh;
+            margin: 5px;
+            background-color: rgba(0, 0, 0, 0.295);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            align-content: center;
+            justify-items: center;
+            flex-direction: row;
+        }
+        .primeira1
+        {
+            width: 99%;
+            height: 15vh;
+            margin: 5px;
+            background-color: rgba(0, 0, 0, 0.356);
+            display: flex;
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+            justify-items: center;
+            flex-direction: row;
+        }
+        .terceira
+        {
+            width: 99%;
+            height: 60vh;
+            margin: 5px;
+            background-color: darkgray;
+        }
+        .titulo
+        {
+            width: 20%;
+            height: 10vh;
+            background-color: rgba(0, 0, 255, 0);
+            color: red;
+            font-size: 40px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            justify-items: center;
+            flex-direction: row;
+        }
+        .convidar
+        {
+            width: 30%;
+            height: 10vh;
+            background-color: rgba(0, 0, 255, 0);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            justify-items: center;
+            flex-direction: row;
+        }
+        .add
+        {
+            width: 40%;
+            height: 3vh;
+            margin: 5px;
+        }
+        .add1
+        {
+            width: 40%;
+            height: 3vh;
+            margin: 0px;
+            background-color: darkgrey;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="cabecalho">
+        <div class="icon">
+            <img src="IMAGENS/menu_icon.png" width="60px">
+        </div>
+         Editar Contas
+         <div class="logo">
+            <img src="logo.png" style="width: 75px; margin: 0px;" >
+         </div>
+    </div>
+         <div class="principal">
+            <div class="primeira">
+                <div class="titulo">
+                    Usuários
+                    <button class="add"> Adicionar Novo</button>
+                </div>
+                <div class="convidar">
+                    <input type="text" class="pesq"><button class="add1">Pesquisar Usuário</button>
+                </div>
+            </div>
+            Administrador
+            <div class="primeira1">
+                <div class="titulo">
+                    <select name="time">
+                        <option value="bota">Ações em massa</option>
+                        <option value="fla">Flamengo</option>
+                        <option value="flu">Fluminense</option>
+                        <option value="vasco">Vasco da Gama</option>
+                    </select>
+                </div>
+                <div class="titulo" style="margin-left: 3px;">
+                    <select name="time">
+                        <option value="bota">Alterar funções para</option>
+                        <option value="fla">Flamengo</option>
+                        <option value="flu">Fluminense</option>
+                        <option value="vasco">Vasco da Gama</option>
+                    </select>
+                    <button class="add">Alterar</button>
+                </div>
+            </div>
+            <div class="terceira"></div>
+         </div>
+</body>
+</html>
